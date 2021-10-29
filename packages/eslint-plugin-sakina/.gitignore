@@ -1,0 +1,4 @@
+/lib
+
+# eslint test output
+/test/output

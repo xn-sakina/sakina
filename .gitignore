@@ -1,0 +1,11 @@
+# base
+node_modules
+
+# test
+/.test
+
+# mac
+.DS_Store
+
+# pnpm
+.pnpm-*.log

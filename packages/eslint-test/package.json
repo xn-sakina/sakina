@@ -1,0 +1,28 @@
+{
+  "name": "@sakina/eslint-test",
+  "version": "1.0.0",
+  "description": "format check for eslint-plugin-sakina",
+  "private": true,
+  "scripts": {},
+  "eslintConfig": {
+    "extends": [
+      "plugin:sakina/react"
+    ]
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-sakina": "workspace:*",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "license": "MIT"
+}

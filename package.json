@@ -1,0 +1,29 @@
+{
+  "name": "sakina",
+  "version": "1.0.0",
+  "private": true,
+  "description": "sakina monorepo",
+  "author": "fz6m",
+  "homepage": "https://github.com/fz6m/sakina#README",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fz6m/sakina"
+  },
+  "keywords": [
+    "sakina",
+    "sakina-monorepo"
+  ],
+  "scripts": {
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "husky": "^7.0.4",
+    "lint-staged": "^11.2.6"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "license": "MIT"
+}
