@@ -16,7 +16,9 @@
   ],
   "scripts": {
     "prepare": "husky install",
-    "release": "changeset publish"
+    "build:all": "pnpm exec -- pnpm build --filter \"@fz6m/*\"",
+    "version-packages": "changeset version",
+    "release": "pnpm build:all && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.17.0",
