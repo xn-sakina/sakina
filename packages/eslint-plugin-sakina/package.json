@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sakina",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "sakina eslint config rules for quick use",
   "author": "fz6m",
   "main": "lib/index.js",
