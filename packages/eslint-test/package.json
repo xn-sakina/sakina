@@ -6,7 +6,7 @@
   "scripts": {},
   "eslintConfig": {
     "extends": [
-      "plugin:sakina/react"
+      "plugin:@sakina/sakina/react"
     ]
   },
   "devDependencies": {
@@ -17,7 +17,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "eslint-plugin-sakina": "workspace:*",
+    "@sakina/eslint-plugin-sakina": "workspace:*",
     "prettier": "^2.4.1"
   },
   "dependencies": {

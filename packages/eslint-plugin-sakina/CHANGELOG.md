@@ -1,4 +1,4 @@
-# eslint-plugin-sakina
+# @sakina/eslint-plugin-sakina
 
 ## 1.0.4
 

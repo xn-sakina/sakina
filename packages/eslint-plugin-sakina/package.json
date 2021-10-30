@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-sakina",
+  "name": "@sakina/eslint-plugin-sakina",
   "version": "1.0.4",
   "description": "sakina eslint config rules for quick use",
   "author": "fz6m",

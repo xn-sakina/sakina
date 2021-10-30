@@ -1,6 +1,6 @@
 # Sakina
 
-sakina monorepo
+Sakina preset monorepo
 
 ### Packages
 

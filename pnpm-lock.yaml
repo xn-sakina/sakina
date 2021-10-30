@@ -50,6 +50,7 @@ importers:
 
   packages/eslint-test:
     specifiers:
+      '@sakina/eslint-plugin-sakina': workspace:*
       '@types/react': ^17.0.33
       '@types/react-dom': ^17.0.10
       '@typescript-eslint/parser': ^5.2.0
@@ -57,7 +58,6 @@ importers:
       eslint-config-prettier: ^8.3.0
       eslint-plugin-prettier: ^4.0.0
       eslint-plugin-react-hooks: ^4.2.0
-      eslint-plugin-sakina: workspace:*
       prettier: ^2.4.1
       react: ^17.0.2
       react-dom: ^17.0.2
@@ -65,6 +65,7 @@ importers:
       react: registry.npmmirror.com/react/17.0.2
       react-dom: registry.npmmirror.com/react-dom/17.0.2_react@17.0.2
     devDependencies:
+      '@sakina/eslint-plugin-sakina': link:../eslint-plugin-sakina
       '@types/react': registry.npmmirror.com/@types/react/17.0.33
       '@types/react-dom': registry.npmmirror.com/@types/react-dom/17.0.10
       '@typescript-eslint/parser': registry.npmmirror.com/@typescript-eslint/parser/5.2.0_eslint@7.32.0
@@ -72,7 +73,6 @@ importers:
       eslint-config-prettier: registry.nlark.com/eslint-config-prettier/8.3.0_eslint@7.32.0
       eslint-plugin-prettier: registry.nlark.com/eslint-plugin-prettier/4.0.0_6e975bd57c7acf028c1a9ddbbf60c898
       eslint-plugin-react-hooks: registry.npmmirror.com/eslint-plugin-react-hooks/4.2.0_eslint@7.32.0
-      eslint-plugin-sakina: link:../eslint-plugin-sakina
       prettier: registry.nlark.com/prettier/2.4.1
 
 packages:
