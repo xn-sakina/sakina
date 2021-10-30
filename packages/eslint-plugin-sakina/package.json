@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sakina",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "sakina eslint config rules for quick use",
   "author": "fz6m",
   "main": "lib/index.js",
@@ -25,7 +25,8 @@
     "clean:output": "rimraf test/output",
     "clean": "rimraf lib",
     "build": "pnpm clean && tsc",
-    "fix": "prettier -c --write \"{src,test}/**/*.{js,jsx,ts,tsx}\""
+    "fix": "prettier -c --write \"{src,test}/**/*.{js,jsx,ts,tsx}\"",
+    "prepublishOnly": "pnpm build"
   },
   "devDependencies": {
     "@types/fs-extra": "^9.0.13",
