@@ -1,12 +1,12 @@
 {
-  "name": "@sakina/eslint-test",
+  "name": "@fz6m/eslint-test",
   "version": "1.0.0",
   "description": "format check for eslint-plugin-sakina",
   "private": true,
   "scripts": {},
   "eslintConfig": {
     "extends": [
-      "plugin:@sakina/sakina/react"
+      "plugin:@fz6m/sakina/react"
     ]
   },
   "devDependencies": {
@@ -17,7 +17,7 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "@sakina/eslint-plugin-sakina": "workspace:*",
+    "@fz6m/eslint-plugin-sakina": "workspace:*",
     "prettier": "^2.4.1"
   },
   "dependencies": {

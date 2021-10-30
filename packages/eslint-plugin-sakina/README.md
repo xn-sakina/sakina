@@ -1,4 +1,4 @@
-# @sakina/eslint-plugin-sakina
+# @fz6m/eslint-plugin-sakina
 
 sakina eslint config rules for quick use.
 
@@ -16,7 +16,7 @@ sakina eslint config rules for quick use.
 安装本插件：
 
 ```bash
-  pnpm add -D @sakina/eslint-plugin-sakina
+  pnpm add -D @fz6m/eslint-plugin-sakina
 ```
 
 ### Scene
@@ -25,7 +25,7 @@ sakina eslint config rules for quick use.
 
 ```js
 {
-  extends: ['plugin:@sakina/sakina/recommended']
+  extends: ['plugin:@fz6m/sakina/recommended']
 }
 ```
 
@@ -39,6 +39,6 @@ sakina eslint config rules for quick use.
 
 ```js
 {
-  extends: ['plugin:@sakina/sakina/react']
+  extends: ['plugin:@fz6m/sakina/react']
 }
 ```

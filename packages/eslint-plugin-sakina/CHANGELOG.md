@@ -1,4 +1,16 @@
-# @sakina/eslint-plugin-sakina
+# @fz6m/eslint-plugin-sakina
+
+## 1.0.6
+
+### Patch Changes
+
+- change scope prefix
+
+## 1.0.5
+
+### Patch Changes
+
+- add scope prefix
 
 ## 1.0.4
 
