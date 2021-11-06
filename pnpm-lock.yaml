@@ -4,12 +4,14 @@ importers:
 
   .:
     specifiers:
+      '@changesets/changelog-github': ^0.4.1
       '@changesets/cli': ^2.17.0
       '@commitlint/cli': ^13.2.1
       '@commitlint/config-conventional': ^13.2.0
       husky: ^7.0.4
       lint-staged: ^11.2.6
     devDependencies:
+      '@changesets/changelog-github': registry.npmmirror.com/@changesets/changelog-github/0.4.1
       '@changesets/cli': registry.npmmirror.com/@changesets/cli/2.17.0
       '@commitlint/cli': registry.npmmirror.com/@commitlint/cli/13.2.1
       '@commitlint/config-conventional': registry.npmmirror.com/@commitlint/config-conventional/13.2.0
@@ -1642,6 +1644,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  registry.nlark.com/dataloader/1.4.0:
+    resolution: {integrity: sha1-vKEdhn9dPxue2fc3vRWXDGXf9cg=, registry: http://registry.npm.taobao.org/, tarball: https://registry.nlark.com/dataloader/download/dataloader-1.4.0.tgz}
+    name: dataloader
+    version: 1.4.0
+    dev: true
+
   registry.nlark.com/debug/4.3.2:
     resolution: {integrity: sha1-8KScGKyHeeMdSgxgKd+3aHPHQos=, registry: http://registry.npm.taobao.org/, tarball: https://registry.nlark.com/debug/download/debug-4.3.2.tgz}
     name: debug
@@ -1683,6 +1691,13 @@ packages:
     name: detect-indent
     version: 6.1.0
     engines: {node: '>=8'}
+    dev: true
+
+  registry.nlark.com/dotenv/8.6.0:
+    resolution: {integrity: sha1-Bhr2ZNGff02PxuT/m1hM4jety4s=, registry: http://registry.npm.taobao.org/, tarball: https://registry.nlark.com/dotenv/download/dotenv-8.6.0.tgz?cache=0&sync_timestamp=1621644599943&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fdotenv%2Fdownload%2Fdotenv-8.6.0.tgz}
+    name: dotenv
+    version: 8.6.0
+    engines: {node: '>=10'}
     dev: true
 
   registry.nlark.com/dotignore/0.1.2:
@@ -2687,6 +2702,12 @@ packages:
       which-boxed-primitive: 1.0.2
     dev: true
 
+  registry.nlark.com/webidl-conversions/3.0.1:
+    resolution: {integrity: sha1-JFNCdeKnvGvnvIZhHMFq4KVlSHE=, registry: http://registry.npm.taobao.org/, tarball: https://registry.nlark.com/webidl-conversions/download/webidl-conversions-3.0.1.tgz}
+    name: webidl-conversions
+    version: 3.0.1
+    dev: true
+
   registry.nlark.com/which-collection/1.0.1:
     resolution: {integrity: sha1-cOq3Hru9Ku+vMvkXCC/GLNy3CQY=, registry: http://registry.npm.taobao.org/, tarball: https://registry.nlark.com/which-collection/download/which-collection-1.0.1.tgz}
     name: which-collection
@@ -2838,6 +2859,16 @@ packages:
       semver: 5.7.1
     dev: true
 
+  registry.npmmirror.com/@changesets/changelog-github/0.4.1:
+    resolution: {integrity: sha1-iAy2JEd5cuoQOr9pQs9O4xBvaCs=, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@changesets/changelog-github/download/@changesets/changelog-github-0.4.1.tgz}
+    name: '@changesets/changelog-github'
+    version: 0.4.1
+    dependencies:
+      '@changesets/get-github-info': registry.npmmirror.com/@changesets/get-github-info/0.5.0
+      '@changesets/types': registry.npmmirror.com/@changesets/types/4.0.1
+      dotenv: registry.nlark.com/dotenv/8.6.0
+    dev: true
+
   registry.npmmirror.com/@changesets/cli/2.17.0:
     resolution: {integrity: sha1-zH/09k0Cnd1thwIKASyM+Met3lg=, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@changesets/cli/download/@changesets/cli-2.17.0.tgz}
     name: '@changesets/cli'
@@ -2908,6 +2939,15 @@ packages:
       chalk: registry.nlark.com/chalk/2.4.2
       fs-extra: registry.nlark.com/fs-extra/7.0.1
       semver: 5.7.1
+    dev: true
+
+  registry.npmmirror.com/@changesets/get-github-info/0.5.0:
+    resolution: {integrity: sha1-uRzrLYLt73iuFZjqn8M1oBIlApU=, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@changesets/get-github-info/download/@changesets/get-github-info-0.5.0.tgz}
+    name: '@changesets/get-github-info'
+    version: 0.5.0
+    dependencies:
+      dataloader: registry.nlark.com/dataloader/1.4.0
+      node-fetch: registry.npmmirror.com/node-fetch/2.6.6
     dev: true
 
   registry.npmmirror.com/@changesets/get-release-plan/3.0.1:
@@ -3917,6 +3957,15 @@ packages:
     engines: {node: '>= 8.0.0'}
     dev: true
 
+  registry.npmmirror.com/node-fetch/2.6.6:
+    resolution: {integrity: sha1-F1GnwBg06OFpd1hzLp77burfr4k=, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/node-fetch/download/node-fetch-2.6.6.tgz}
+    name: node-fetch
+    version: 2.6.6
+    engines: {node: 4.x || >=6.0.0}
+    dependencies:
+      whatwg-url: registry.npmmirror.com/whatwg-url/5.0.0
+    dev: true
+
   registry.npmmirror.com/npm-run-path/2.0.2:
     resolution: {integrity: sha1-NakjLfo11wZ7TLLd8jV7GHFTbF8=, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/npm-run-path/download/npm-run-path-2.0.2.tgz}
     name: npm-run-path
@@ -4150,6 +4199,12 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
+  registry.npmmirror.com/tr46/0.0.3:
+    resolution: {integrity: sha1-gYT9NH2snNwYWZLzpmIuFLnZq2o=, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/tr46/download/tr46-0.0.3.tgz}
+    name: tr46
+    version: 0.0.3
+    dev: true
+
   registry.npmmirror.com/ts-node/9.1.1_typescript@4.4.4:
     resolution: {integrity: sha1-UamkUKPpWUAb2l8ASnLVS5NtN20=, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/ts-node/download/ts-node-9.1.1.tgz}
     id: registry.npmmirror.com/ts-node/9.1.1
@@ -4217,6 +4272,15 @@ packages:
     version: 4.4.4
     engines: {node: '>=4.2.0'}
     hasBin: true
+    dev: true
+
+  registry.npmmirror.com/whatwg-url/5.0.0:
+    resolution: {integrity: sha1-lmRU6HZUYuN2RNNib2dCzotwll0=, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/whatwg-url/download/whatwg-url-5.0.0.tgz}
+    name: whatwg-url
+    version: 5.0.0
+    dependencies:
+      tr46: registry.npmmirror.com/tr46/0.0.3
+      webidl-conversions: registry.nlark.com/webidl-conversions/3.0.1
     dev: true
 
   registry.npmmirror.com/widest-line/2.0.1:
