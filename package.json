@@ -17,8 +17,12 @@
   "scripts": {
     "prepare": "husky install",
     "build:all": "pnpm exec -- pnpm build --filter \"@fz6m/*\"",
+    "push": "changeset",
     "version-packages": "changeset version",
-    "release": "pnpm build:all && changeset publish"
+    "vp": "pnpm version-packages",
+    "push:npm": "changeset publish",
+    "release": "pnpm build:all && pnpm push:npm",
+    "release:only": "pnpm push:npm"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.1",
