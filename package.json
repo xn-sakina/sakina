@@ -4,13 +4,12 @@
   "private": true,
   "description": "sakina monorepo",
   "author": "fz6m",
-  "homepage": "https://github.com/fz6m/sakina#README",
+  "homepage": "https://github.com/xn-sakina/sakina#README",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fz6m/sakina"
+    "url": "https://github.com/xn-sakina/sakina"
   },
   "keywords": [
-    "fz6m",
     "sakina",
     "sakina-monorepo"
   ],
