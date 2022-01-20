@@ -4,10 +4,10 @@
   "description": "sakina eslint config rules for quick use",
   "author": "fz6m",
   "main": "lib/index.js",
-  "homepage": "https://github.com/fz6m/sakina/tree/main/packages/eslint-plugin-sakina#README",
+  "homepage": "https://github.com/xn-sakina/sakina/tree/main/packages/eslint-plugin-sakina#README",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fz6m/sakina"
+    "url": "https://github.com/xn-sakina/sakina"
   },
   "files": [
     "lib"
