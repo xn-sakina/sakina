@@ -1,5 +1,11 @@
 # @fz6m/eslint-plugin-sakina
 
+## 1.0.7
+
+### Patch Changes
+
+- [`72bd2c2`](https://github.com/xn-sakina/sakina/commit/72bd2c22b11845e4e1dcf0644de3361360aa96ce) Thanks [@fz6m](https://github.com/fz6m)! - upgrade deps version
+
 ## 1.0.6
 
 ### Patch Changes
