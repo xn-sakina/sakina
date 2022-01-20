@@ -10,6 +10,7 @@ importers:
       '@commitlint/config-conventional': ^13.2.0
       husky: ^7.0.4
       lint-staged: ^12.2.2
+      only-allow: ^1.0.0
     devDependencies:
       '@changesets/changelog-github': 0.4.2
       '@changesets/cli': 2.19.0
@@ -17,6 +18,7 @@ importers:
       '@commitlint/config-conventional': 13.2.0
       husky: 7.0.4
       lint-staged: 12.2.2
+      only-allow: 1.0.0
 
   packages/dumi-test:
     specifiers:
@@ -3769,7 +3771,7 @@ packages:
     dev: true
 
   /ansi-align/3.0.1:
-    resolution: {integrity: sha1-DN8S4RGs53OobpofrRIlxDyxmlk=, registry: http://registry.npm.taobao.org/, tarball: http://registry.npm.taobao.org/ansi-align/download/ansi-align-3.0.1.tgz?cache=0&sync_timestamp=1632743712616&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fansi-align%2Fdownload%2Fansi-align-3.0.1.tgz}
+    resolution: {integrity: sha1-DN8S4RGs53OobpofrRIlxDyxmlk=, tarball: ansi-align/download/ansi-align-3.0.1.tgz}
     dependencies:
       string-width: 4.2.3
     dev: true
@@ -4208,6 +4210,20 @@ packages:
       widest-line: 2.0.1
     dev: true
 
+  /boxen/4.2.0:
+    resolution: {integrity: sha1-5BG2I1fW1tNlh8isPV2XTaoHDmQ=, tarball: boxen/download/boxen-4.2.0.tgz?cache=0&sync_timestamp=1634185641329&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fboxen%2Fdownload%2Fboxen-4.2.0.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      ansi-align: 3.0.1
+      camelcase: 5.3.1
+      chalk: 3.0.0
+      cli-boxes: 2.2.1
+      string-width: 4.2.3
+      term-size: 2.2.1
+      type-fest: 0.8.1
+      widest-line: 3.1.0
+    dev: true
+
   /brace-expansion/1.1.11:
     resolution: {integrity: sha1-PH/L9SnYcibz0vUrlm/1Jx60Qd0=, tarball: brace-expansion/download/brace-expansion-1.1.11.tgz}
     dependencies:
@@ -4332,7 +4348,7 @@ packages:
     dev: true
 
   /camelcase/5.3.1:
-    resolution: {integrity: sha1-48mzFWnhBoEd8kL3FXJaH0xJQyA=, tarball: camelcase/download/camelcase-5.3.1.tgz}
+    resolution: {integrity: sha512-L28STB170nwWS63UjtlEOE3dldQApaJXZkOI1uMFfzf3rRuPegHaHesyee+YxQ+W6SvRDQV6UrdOdRiR153wJg==, tarball: camelcase/download/camelcase-5.3.1.tgz}
     engines: {node: '>=6'}
     dev: true
 
@@ -4473,6 +4489,11 @@ packages:
   /cli-boxes/1.0.0:
     resolution: {integrity: sha1-T6kXw+WclKAEzWH47lCdplFocUM=, tarball: cli-boxes/download/cli-boxes-1.0.0.tgz}
     engines: {node: '>=0.10.0'}
+    dev: true
+
+  /cli-boxes/2.2.1:
+    resolution: {integrity: sha1-3dUDXSUJT84iDpyrQKRYQKRAMY8=, tarball: cli-boxes/download/cli-boxes-2.2.1.tgz}
+    engines: {node: '>=6'}
     dev: true
 
   /cli-cursor/3.1.0:
@@ -8410,6 +8431,14 @@ packages:
       mimic-fn: 2.1.0
     dev: true
 
+  /only-allow/1.0.0:
+    resolution: {integrity: sha1-GsZioq139hgSQIR0gbat0gH070U=, tarball: only-allow/download/only-allow-1.0.0.tgz}
+    hasBin: true
+    dependencies:
+      boxen: 4.2.0
+      which-pm-runs: 1.0.0
+    dev: true
+
   /optionator/0.9.1:
     resolution: {integrity: sha1-TyNqY3Pa4FZqbUPhMmZ09QwpFJk=, tarball: https://registry.npm.taobao.org/optionator/download/optionator-0.9.1.tgz}
     engines: {node: '>= 0.8.0'}
@@ -10958,6 +10987,10 @@ packages:
     resolution: {integrity: sha1-2e8H3Od7mQK4o6j6SzHD4/fm6Ho=, tarball: which-module/download/which-module-2.0.0.tgz}
     dev: true
 
+  /which-pm-runs/1.0.0:
+    resolution: {integrity: sha1-Zws6+8VS4LVd9rd4DKdGFfI60cs=, tarball: which-pm-runs/download/which-pm-runs-1.0.0.tgz}
+    dev: true
+
   /which-pm/2.0.0:
     resolution: {integrity: sha1-gkVgns/mS/dR0O7y83bYO/Hdt64=, tarball: which-pm/download/which-pm-2.0.0.tgz}
     engines: {node: '>=8.15'}
@@ -11004,6 +11037,13 @@ packages:
     engines: {node: '>=4'}
     dependencies:
       string-width: 2.1.1
+    dev: true
+
+  /widest-line/3.1.0:
+    resolution: {integrity: sha1-gpIzO79my0X/DeFgOxNreuFJbso=, tarball: widest-line/download/widest-line-3.1.0.tgz?cache=0&sync_timestamp=1634024975907&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2Fwidest-line%2Fdownload%2Fwidest-line-3.1.0.tgz}
+    engines: {node: '>=8'}
+    dependencies:
+      string-width: 4.2.3
     dev: true
 
   /word-wrap/1.2.3:
