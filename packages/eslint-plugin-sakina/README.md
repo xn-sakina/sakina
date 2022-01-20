@@ -7,11 +7,9 @@ sakina eslint config rules for quick use.
 使用前，请确保安装了以下前置依赖：
 
 ```bash
-  pnpm add -D eslint@^7 @typescript-eslint/parser
+  pnpm add -D eslint @typescript-eslint/parser
   pnpm add -D eslint-config-prettier eslint-plugin-prettier prettier
 ```
-
-⚠ 注意：prettier 仍有插件未适配 eslint8，目前仅可用 eslint7 。
 
 安装本插件：
 
