@@ -20,7 +20,7 @@
     "version-packages": "changeset version",
     "vp": "pnpm version-packages",
     "release": "pnpm build:all && pnpm release:only",
-    "release:only": "changeset publish"
+    "release:only": "npm_config_registry=https://registry.npmjs.com/ changeset publish"
   },
   "devDependencies": {
     "@changesets/changelog-github": "^0.4.2",
