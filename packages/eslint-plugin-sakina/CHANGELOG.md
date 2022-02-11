@@ -1,5 +1,11 @@
 # @fz6m/eslint-plugin-sakina
 
+## 1.1.0
+
+### Minor Changes
+
+- add prettier config
+
 ## 1.0.7
 
 ### Patch Changes
