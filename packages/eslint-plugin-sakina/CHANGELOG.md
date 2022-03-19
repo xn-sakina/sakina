@@ -1,5 +1,11 @@
 # @fz6m/eslint-plugin-sakina
 
+## 1.1.1
+
+### Patch Changes
+
+- add init command and upgrade deps
+
 ## 1.1.0
 
 ### Minor Changes
