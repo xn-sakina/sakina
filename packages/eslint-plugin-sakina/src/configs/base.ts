@@ -13,20 +13,11 @@ export = {
     sourceType: 'module',
   },
   rules: {
-    'prettier/prettier': [
-      'warn',
-      {
-        semi: false,
-        singleQuote: true,
-        printWidth: 80,
-        proseWrap: 'never',
-        overrides: [{ files: '.prettierrc', options: { parser: 'json' } }],
-      },
-    ],
+    'prettier/prettier': 'warn',
     '@typescript-eslint/no-unused-vars': 'off',
     'no-unused-vars': 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
   },
-  ignorePatterns: ['/dist', '/build'],
+  ignorePatterns: ['/dist', '/build', '/node_modules'],
 }

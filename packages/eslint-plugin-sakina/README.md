@@ -9,6 +9,12 @@ sakina eslint config rules for quick use.
   pnpm add -D @fz6m/eslint-plugin-sakina
 ```
 
+### Initial
+
+```bash
+  sakina-lint init
+```
+
 ### Scene
 
 ##### normal
