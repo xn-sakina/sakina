@@ -21,6 +21,7 @@ sakina eslint config rules for quick use.
 
 ```js
 // .eslintrc.js
+require('@fz6m/eslint-plugin-sakina/setup')
 
 module.exports = {
   extends: ['plugin:@fz6m/sakina/recommended']
@@ -31,6 +32,7 @@ module.exports = {
 
 ```js
 // .eslintrc.js
+require('@fz6m/eslint-plugin-sakina/setup')
 
 module.exports = {
   extends: ['plugin:@fz6m/sakina/react']
